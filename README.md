@@ -12,7 +12,6 @@ Kotlin Coroutine and Flow. The paginator enables to load data incrementally and 
 scroll through a list.
 </div>
 
----
 <h2 align="center">Project Structure</h2>
 <div align="start">The project has the following key components</div>
 
@@ -22,13 +21,12 @@ scroll through a list.
     * **DataSource**: A data source interface to fetch data in a paginated manner.
     * **State**: Represents the state of a data loading operation with optional generic items.
 
-<br>
-
 > **Note**:
 > This method proved effective for me when using API requests with dependency injection. Feel free to try and kindly pull a issue if you experience any issues.
 
----
+
 <h2 align="center">Usage</h2>
+
 ### Repository
 ```kotlin
 // Creating a repository to load data, you have the option or 
