@@ -67,13 +67,7 @@ fun loadNextPage() = paginator.loadNextPage()
 
 // Handle error event
 val errorEvent: SingleLiveEvent<Throwable> = paginator.errorEvent
-
 ```
-
-<div align="center">Basic usage examples altogether! Alternatively, You can see the clean usage code example by navigating to the project's root.</div>
-<div align="center">
-	<img src="arts/example_usage.png">
-</div>
 
 <h2 align="center">Preview</h2>
 <div align="center">
