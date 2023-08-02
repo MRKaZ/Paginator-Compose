@@ -53,7 +53,7 @@ class ExampleDatasource(
 ```kotlin
 // Your repo here
 private val exampleRepository = ExampleRepository()
-private val dataSource = ExampleDatasource(dataRepository = exampleRepository)
+private val dataSource = ExampleDatasource(exampleRepository = exampleRepository)
 
 // Instance of paginator
 private val paginator = Paginator(dataSource = dataSource)
