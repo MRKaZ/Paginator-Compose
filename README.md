@@ -49,7 +49,7 @@ class ExampleDatasource(
         dataRepository.getItemList(page = page, pageSize = pageSize)
 }
 ```
-### Creating DataSource
+### Display data in UI based on observations.
 ```kotlin
 // Your repo here
 private val exampleRepository = ExampleRepository()
